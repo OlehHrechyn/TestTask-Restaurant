@@ -20,7 +20,6 @@
 		1D74AB5022537D0F007D0B0E /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74AB4E22537D0F007D0B0E /* RestaurantViewController.swift */; };
 		1D74AB5122537D0F007D0B0E /* RestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D74AB4F22537D0F007D0B0E /* RestaurantViewController.xib */; };
 		1D74AB5722537DEB007D0B0E /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74AB5622537DEB007D0B0E /* ReusableView.swift */; };
-		1D74AB5A22537DFE007D0B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D74AB5822537DFE007D0B0E /* Main.storyboard */; };
 		1D74AB5D225383E9007D0B0E /* CALayer+Additionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74AB5C225383E9007D0B0E /* CALayer+Additionals.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		1D74AB4E22537D0F007D0B0E /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		1D74AB4F22537D0F007D0B0E /* RestaurantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantViewController.xib; sourceTree = "<group>"; };
 		1D74AB5622537DEB007D0B0E /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
-		1D74AB5922537DFE007D0B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D74AB5C225383E9007D0B0E /* CALayer+Additionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Additionals.swift"; sourceTree = "<group>"; };
 		7B7C994D8C25DCC95374B263 /* Pods_Restaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B42BA8F7A9E2E02F09D3B26 /* Pods-Restaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurant.debug.xcconfig"; path = "Target Support Files/Pods-Restaurant/Pods-Restaurant.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				1D74AB41225352B6007D0B0E /* APIManager */,
 				1D74AB4022535296007D0B0E /* Protocols */,
 				1D74AB5B225383C6007D0B0E /* Extensions */,
-				1D74AB5822537DFE007D0B0E /* Main.storyboard */,
 				1D74AB2C225256F8007D0B0E /* LaunchScreen.storyboard */,
 				1D74AB2A225256F8007D0B0E /* Assets.xcassets */,
 				1D74AB2F225256F8007D0B0E /* Info.plist */,
@@ -226,7 +223,6 @@
 				1D74AB2E225256F8007D0B0E /* LaunchScreen.storyboard in Resources */,
 				1D74AB2B225256F8007D0B0E /* Assets.xcassets in Resources */,
 				1D74AB3A22534CC5007D0B0E /* FoodListViewController.xib in Resources */,
-				1D74AB5A22537DFE007D0B0E /* Main.storyboard in Resources */,
 				1D74AB5122537D0F007D0B0E /* RestaurantViewController.xib in Resources */,
 				1D74AB3F22534DD4007D0B0E /* FoodInfoCell.xib in Resources */,
 			);
@@ -306,14 +302,6 @@
 				1D74AB2D225256F8007D0B0E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1D74AB5822537DFE007D0B0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D74AB5922537DFE007D0B0E /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
